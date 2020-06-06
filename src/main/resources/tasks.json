@@ -1,0 +1,29 @@
+[
+	{
+		"name":"testServicio1",
+		"cronexp": "0 0/1 * 1/1 * ?",
+		"nits": [
+			"123",
+			"456"
+		],
+		"url": "http://localhost:8008/testServicio/primero/{nit}/{regimen}/{tokenSecundario}"
+	},
+	{
+		"name":"testServicio2",
+		"cronexp": "0 0/1 * 1/1 * ?",
+		"nits": [
+			"123",
+			"456"
+		],
+		"url": "http://localhost:8008/testServicio/segundo/{nit}/{regimen}/{tokenSecundario}"
+	},
+	{
+		"name":"testServicio3",
+		"cronexp": "0 0/1 * 1/1 * ?",
+		"nits": [
+			"123",
+			"456"
+		],
+		"url": "http://localhost:8008/testServicio/tercero/{nit}/{regimen}/{tokenPrimario}"
+	}
+]

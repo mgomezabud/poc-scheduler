@@ -1,0 +1,8 @@
+mock:
+  default:
+    credential:
+      credentialUrl: http://localhost:8008/mocks/api/Credential/
+      obtainTokenUrl: obtainToken/
+      obtainSecondaryTokenUrl: obtainSecondaryToken/
+      listActiveCredentialURl: listActiveCredential 
+      generateSecondaryTokenUrl: generateSecondaryToken/
